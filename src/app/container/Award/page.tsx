@@ -1,9 +1,17 @@
 import { SubHeading} from "@/app/components";
 import { data, images } from "../../constants";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import "./Award.css";
 
-const AwardsCard = ({awards : {imgUrl, title, subtitle}}) => (
+type AwardProps = {
+  awards: {
+    imgUrl: string  | StaticImageData;
+    title: string;
+    subtitle: string;
+  };
+};
+
+const AwardsCard = ({awards : {imgUrl, title, subtitle}}:AwardProps) => (
     <div className="app__awards-card">
        <Image src={imgUrl} alt="awards" className="award__img"/>
       <div className="app__awards-card-content">
@@ -39,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page;
