@@ -1,6 +1,7 @@
 .app__specialMenu {
   flex-direction: column;
   background-color: var(--color-black);
+  padding-right: 0%;
 }
 
 .app__specialMenu-title {
@@ -16,7 +17,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
 }
 
 .app__specialMenu-menu-heading {
@@ -34,23 +34,26 @@
   flex-direction: column;
   width: 100%;
 }
-
 .app__specialMenu-menu_img {
   width: 410px;
   margin: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app__specialMenu-menu_img .menu__img {
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80vh;
 }
 
 .app__specialMenu-menu-items {
   display: flex;
+  justify-content: start;
+  align-items: flex-start;
   flex-direction: column;
 
   margin: 2rem 0;
-  width: 100%;
 }
 
 @media screen and (min-width: 2000px) {
@@ -60,6 +63,12 @@
 
   .app__specialMenu-menu_img .menu__img {
     height: 920px;
+  }
+}
+
+@media screen and (max-width: 1999px) {
+  .app__specialMenu-menu_img .menu__img {
+    height: 500px;
   }
 }
 
@@ -76,12 +85,22 @@
 }
 
 @media screen and (max-width: 650px) {
-  .app__specialMenu-menu_img {
-    width: 100%;
+  .app__specialMenu-menu_img .menu__img {
+    height: 400px;
+    margin-top: 0%;
   }
 
   .app__specialMenu-menu_heading {
     font-size: 35px;
     line-height: 48.5px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .app__specialMenu-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }

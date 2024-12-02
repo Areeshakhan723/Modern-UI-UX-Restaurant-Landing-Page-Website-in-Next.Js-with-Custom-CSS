@@ -1,5 +1,4 @@
 import { AboutUs, Chef, FindUs, Gallery, Header, Intro, SpecialMenu } from './container';
-// import { Navbar } from './components';
 import './page.css';
 
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
       <SpecialMenu />
       <Chef />
       <Intro />
-      {/* <Laurels /> */}
       <Gallery />
       <FindUs />
   </div>

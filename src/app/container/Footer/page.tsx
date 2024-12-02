@@ -5,7 +5,7 @@ import { FiFacebook, FiTwitter, FiInstagram} from "react-icons/fi";
 import { FooterOverlay, Newsletter } from "../../components";
 const page = () => {
   return (
-    <div className="app__footer section__padding" id="contact">
+    <div className="app__footer padding" id="contact">
       <FooterOverlay />
       <Newsletter />
 

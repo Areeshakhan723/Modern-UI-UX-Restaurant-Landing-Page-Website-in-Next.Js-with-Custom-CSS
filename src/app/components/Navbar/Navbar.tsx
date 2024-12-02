@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link href={"/"}>Home</Link>
           </li>
           <li className="p__opensans">
-            <Link href={"#about"}>About</Link>
+            <Link href="#about">About</Link>
           </li>
           <li className="p__opensans">
             <Link href="../container/Menu">Menu</Link>
@@ -70,7 +70,7 @@ const Navbar = () => {
                 </li>
                 <li className="p__opensans">
                   <Link
-                    href={"#about"}
+                    href="#about"
                     onClick={() => settoggleMenu(false)}
                   >
                     About

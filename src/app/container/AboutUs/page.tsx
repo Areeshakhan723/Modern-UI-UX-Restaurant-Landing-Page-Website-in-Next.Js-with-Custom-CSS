@@ -3,7 +3,10 @@ import Image from "next/image";
 import { images } from "../../constants";
 
 const page = () => (
-  <div className="app__aboutus app__bg flex__center section__padding" id="about">
+  <div
+    className="app__aboutus app__bg flex__center padding-x"
+    id="about"
+  >
     <div className="app__aboutus-overlay flex__center">
       <Image src={images.G} alt="G_overlay" className="img__G" />
     </div>
@@ -23,6 +26,7 @@ const page = () => (
       <div className="app__aboutus-content_knife flex__center">
         <Image src={images.knife} alt="Knife" className="Knife_img" />
       </div>
+      
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <Image src={images.spoon} alt="spoon" />

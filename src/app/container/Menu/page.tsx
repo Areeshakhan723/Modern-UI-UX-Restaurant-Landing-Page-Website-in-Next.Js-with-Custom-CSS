@@ -4,7 +4,7 @@ import { data, images } from "../../constants";
 import Image from "next/image";
 
 const page = () => (
-  <div className="app__specialMenu flex__center section__padding" id="menu">
+  <div className="app__specialMenu flex__center padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits you palatte" />
       <h1 className="headtext__cormorant">Today’s Special</h1>
@@ -45,7 +45,7 @@ const page = () => (
       </div>
     </div>
 
-    <div style={{ margin: "15px" }}>
+    <div style={{marginTop: "15px"}}>
       <button type="button" className="custom__button">
         View More
       </button>

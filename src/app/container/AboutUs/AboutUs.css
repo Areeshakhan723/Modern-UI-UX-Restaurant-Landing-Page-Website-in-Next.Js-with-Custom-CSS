@@ -41,7 +41,7 @@
 }
 
 .app__aboutus-content_knife .Knife_img {
-  height: 910px;
+  height: 800px;
 }
 
 .app__aboutus-content_history p,
@@ -51,13 +51,12 @@
 }
 
 @media screen and (max-width: 2000px) {
-
-   .app__aboutus-content_knife{
+  .app__aboutus-content_knife {
     height: 1110px;
-   } 
+  }
   .app__aboutus-content_history p,
   .app__aboutus-content_about p {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
 }
 

@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="app__bg app__wrapper section__padding">
-    <div className="app__wrapper_info">
+    <div className="app__bg app__wrapper padding">
+    <div className="app__wrapper_info padding-x">
       <SubHeading title={"Contact"}/>
       <h1 className="headtext__cormorant">Find Us</h1>
       <div className="app__wrapper-content">

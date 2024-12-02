@@ -25,8 +25,8 @@ const Page = () => {
     }
   };
   return (
-    <div className="app__gallery flex__center section__padding">
-      <div className="app__gallery-content">
+    <div className="app__gallery flex__center padding">
+      <div className="app__gallery-content padding-x">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p

@@ -12,10 +12,12 @@ const MenuItem = ({
   return (
     <div className="app__menuItems">
       <div className="app__menuitem-name">
-        <p className="p__cormorant" style={{ color: "#DCCA87" }}>
+        <p className="p__cormorant para" style={{ color: "#DCCA87" }}>
           {title}
         </p>
+
         <div className="app__menuitem-dash" />
+
         <div className="app__menuitem-price">
           <p className="p__cormorant">{price}</p>
         </div>
@@ -31,9 +33,3 @@ const MenuItem = ({
 };
 
 export default MenuItem;
-{
-  /* <div className="app__menuItems-head"> */
-}
-{
-  /* </div>   */
-}
